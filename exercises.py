@@ -13,6 +13,7 @@ def calculate_area_triangle(base, height):
 
 
 print("Exercise 1:", calculate_area_triangle(10, 5))
+print("Exercise 1:", calculate_area_triangle(7, 3))
 print("----------------------------------------")
 
 
@@ -31,6 +32,7 @@ def simple_interest(principal, rate, time):
 
 
 print("Exercise 2:", simple_interest(1000, 5, 2))
+print("Exercise 2:", simple_interest(1500, 3.5, 5))
 print("----------------------------------------")
 
 
@@ -49,6 +51,8 @@ def apply_discount(price, discount):
 
 
 print("Exercise 3:", apply_discount(80, 10))
+print("Exercise 3:", apply_discount(100, 25))
+
 print("----------------------------------------")
 
 
@@ -95,3 +99,20 @@ def sum_to(n):
 print("Exercise 5:", sum_to(6))
 print("Exercise 5:", sum_to(10))
 print("----------------------------------------")
+
+
+# Exercise 6: Find the Largest Number
+#
+# Write a function named `largest` that takes three integers as arguments and returns the largest of them.
+#
+# Examples:
+# largest(1, 2, 3) should return 3.
+# largest(10, 4, 2) should return 10.
+#
+# Define your function and test it with different inputs.
+def largest(a, b, c):
+    return max(a, b, c)
+
+
+print("Exercise 6:", largest(1, 2, 3))
+print("Exercise 6:", largest(10, 4, 2))
